@@ -16,7 +16,7 @@ jobs:
           name: "test du code"
           command: |
             ls -l
-            wc -l fichier
+            wc -l fichier.txt
 workflows:
   checkout-test-workflow:
     jobs:
