@@ -21,6 +21,6 @@ workflows:
   checkout-test-workflow:
     jobs:
       - checkout
-      - test
+      - test:
           requires:
             - checkout
