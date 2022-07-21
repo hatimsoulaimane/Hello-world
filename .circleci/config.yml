@@ -15,7 +15,6 @@ jobs:
       - run:
           name: "test du code"
           command: |
-            echo "verifier la presence du code github"
             ls -l
             wc -l fichier.txt
 workflows:
