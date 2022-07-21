@@ -1,7 +1,7 @@
 
 version: 2.1
 jobs:
-  test-checkout:
+  checkout:
     docker:
       - image: cimg/base:stable
     steps:
@@ -13,7 +13,7 @@ jobs:
     steps:
       - checkout
       - run:
-          name: "test checkout"
+          name: "test du code"
           command: |
             echo "verifier la presence du code github"
             ls -l
